@@ -2,7 +2,7 @@
 
 **AI-powered spectral-spatial land-cover classification using a 3D CNN + 2D CNN**
 
-[![Gradio](https://img.shields.io/badge/Gradio-Live%20Demo-orange?style=for-the-badge&logo=gradio)](https://huggingface.co/spaces/USERNAME/hyperspectral-image-classification)
+[![Gradio](https://img.shields.io/badge/Gradio-Live%20Demo-orange?style=for-the-badge&logo=gradio)](https://huggingface.co/spaces/tuhinbiswas404076-ai/hyperspectral-image-classification)
 [![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)](https://python.org)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.21-orange?style=for-the-badge&logo=tensorflow)](https://tensorflow.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
@@ -11,10 +11,10 @@
 
 ## 🚀 Live Demo
 
-> **Replace `USERNAME` below with your actual Hugging Face username after deployment.**
+> **Replace `tuhinbiswas404076-ai` below with your actual Hugging Face username after deployment.**
 
 ```
-https://huggingface.co/spaces/USERNAME/hyperspectral-image-classification
+https://huggingface.co/spaces/tuhinbiswas404076-ai/hyperspectral-image-classification
 ```
 
 ---
@@ -157,7 +157,7 @@ hyperspectral-image-classification/
 
 ```bash
 # Clone the repository
-git clone https://github.com/USERNAME/hyperspectral-image-classification.git
+git clone https://github.com/tuhinbiswas404076-ai/hyperspectral-image-classification.git
 cd hyperspectral-image-classification
 
 # Create virtual environment (Python 3.11 recommended)
@@ -214,7 +214,7 @@ huggingface-cli login
 
 # Create and push to Space
 huggingface-cli repo create hyperspectral-image-classification --type space --space-sdk gradio
-git remote add hf https://huggingface.co/spaces/USERNAME/hyperspectral-image-classification
+git remote add hf https://huggingface.co/spaces/tuhinbiswas404076-ai/hyperspectral-image-classification
 git push hf main
 ```
 
@@ -228,7 +228,7 @@ If you use this project in your research, please cite:
 @misc{hyperspectral-classification,
   title={Hyperspectral Image Classification using 3D CNN + 2D CNN},
   year={2026},
-  url={https://github.com/USERNAME/hyperspectral-image-classification}
+  url={https://github.com/tuhinbiswas404076-ai/hyperspectral-image-classification}
 }
 ```
 
