@@ -1,0 +1,48 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment and secrets
+.env
+.env.local
+*.key
+*.pem
+kaggle.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Raw datasets (too large for git)
+data/raw/*.mat
+data/raw/*.h5
+*.tar.gz
+*.zip
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+
+# Model weights backup (model/ folder has the exported .keras)
+# best_model.weights.h5 is kept for reference
+
+# Kaggle cache
+.cache/
