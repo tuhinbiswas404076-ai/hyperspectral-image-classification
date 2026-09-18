@@ -46,6 +46,32 @@ The trained model is deployed as a **public Gradio web application** on Hugging 
 
 ---
 
+## 📊 Research Visualizations & Results
+
+### 1. Land-Cover Classification Maps & Predictions
+Side-by-side comparison of the false-color composite image (RGB from representative bands), ground truth reference map, and the 3D+2D CNN predicted land-cover classification map.
+
+![Classification Maps](assets/classification_maps.png)
+
+### 2. Hyperspectral Spectral Signatures (270 Bands)
+Mean spectral radiance signatures and variance bands for all 9 agricultural and topographical land-cover classes across the electromagnetic spectrum.
+
+![Spectral Signatures](assets/spectral_signatures.png)
+
+### 3. Model Training & Validation Performance
+Training progress showing convergence, loss minimization, and peak validation accuracy (96.8%) across training epochs.
+
+![Training History](assets/training_history.png)
+
+### 4. Classification Confusion Matrix & Class Distribution
+Detailed evaluation confusion matrix showing classification accuracy and inter-class boundary separability alongside land-cover pixel frequency distribution.
+
+| Confusion Matrix | Land-Cover Class Distribution |
+|:---:|:---:|
+| ![Confusion Matrix](assets/confusion_matrix.png) | ![Class Distribution](assets/class_distribution.png) |
+
+---
+
 ## ✨ Features
 
 | Feature | Description |

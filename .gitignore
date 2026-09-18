@@ -42,7 +42,8 @@ tmp/
 temp/
 
 # Model weights backup (model/ folder has the exported .keras)
-# best_model.weights.h5 is kept for reference
+best_model.weights.h5
+/Hyper_SpectralImage.ipynb
 
 # Kaggle cache
 .cache/
